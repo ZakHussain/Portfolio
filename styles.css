@@ -1,0 +1,59 @@
+*{
+	/*outline: 1px dotted black; */
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	width: 970px;
+	margin: 0px auto;
+	padding: 10px;
+	background:
+		repeating-radial-gradient(
+			circle at 0 0,
+			#84988b,
+			#78aec9 50px		
+		);
+}
+	#header{
+
+	}
+		#header img{
+			height: 200px;
+			width: 200px;
+			border: 10px solid rgb(203, 208, 211);
+   			border-radius: 72px;	
+
+		}
+		#Me {
+			display: inline-block;
+			border: 10px solid rgb(203, 208, 211);
+    		border-radius: 72px;
+    		text-align: center;
+
+
+		}
+	#aspire_quote{
+		background-image: url("halo.jpg");
+	    background-repeat: no-repeat;
+	    height: 360px;
+	    width: 950px;
+	    background-size: 950px 360px;
+	    text-align: center;
+	    color: #4284a0;;
+	    font-size: 42px;
+	    border: 10px solid rgb(203, 208, 211);
+    	border-radius: 72px;	
+	}
+	#personal {
+		border: 10px solid rgb(203, 208, 211);
+    	border-radius: 72px;
+    	text-align: center;
+	}
+	#connect {
+		border: 10px solid rgb(203, 208, 211);
+    	border-radius: 72px;
+    	text-align: center;
+	}
+		#connect_links a{
+			display: block;
+		}
